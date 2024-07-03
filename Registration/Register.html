@@ -6,6 +6,9 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="Register.css">
     <title>Document</title>
+    <style src="Register.js">
+        @import url("https://fonts.googleapis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap");
+    </style>
 </head>
 <body>
     <div class="wrapper">
@@ -40,5 +43,13 @@
             </div>
         </form>
     </div>
+    <script>
+        const registerButton = document.querySelector('.btn');
+        const wrapper = document.querySelector('.wrapper');
+
+        registerButton.addEventListener('click', function() {
+            wrapper.classList.add('animate');
+        });
+    </script>
 </body>
 </html>
