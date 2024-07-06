@@ -161,6 +161,19 @@ section{
 .shoes .extra img:hover{
     scale: 1.2;
 }
+
+.image img:hover{
+    scale: 1.1;
+}
+
+
+.image{
+    width: 100px;
+    /* transform: rotate(-30deg); */
+    filter: drop-shadow(2px 2px 10px white);
+    transition: 0.2s linear;
+}
+
 .image img{
     width: 400px;
     height:0%;
